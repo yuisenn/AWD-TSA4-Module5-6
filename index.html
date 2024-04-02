@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="./Assets/Style/style.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="restaurant-name">Emman's Restaurant Menu</h1>
+    </header>
+    <div class="container">
+        <div class="menu-item" onclick="showModal('Adobo', 'A traditional Filipino dish made with meat, soy sauce, vinegar, and spices. Price: ₱120')">
+            <img src="./Assets/images/adobo.png" alt="Adobo" class="dish-image">
+            <div class="dish-name">Adobo</div>
+        </div>
+        <div class="menu-item" onclick="showModal('Sinigang', 'A sour soup native to the Philippines, consisting of meat or seafood and vegetables. Price: ₱90')">
+            <img src="./Assets/images/sinigang.png" alt="Sinigang" class="dish-image">
+            <div class="dish-name">Sinigang</div>
+        </div>
+        <div class="menu-item" onclick="showModal('Sisig', 'A popular Filipino dish made from pighead and liver, seasoned with calamansi and chili peppers. Price: ₱99')">
+            <img src="./Assets/images/sisig.png" alt="Sisig" class="dish-image">
+            <div class="dish-name">Sisig</div>
+        </div>
+        <div class="menu-item" onclick="showModal('Bulalo', 'A beef dish from the Philippines made from beef shanks and marrow bones, cooked for a long time to bring out the flavor. Price: ₱150')">
+            <img src="./Assets/images/bulalo.png" alt="Bulalo" class="dish-image">
+            <div class="dish-name">Bulalo</div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="hideModal()">&times;</span>
+            <div id="modal-content"></div>
+        </div>
+    </div>
+
+    <script src="./Assets/JS/script.js"></script>
+</body>
+</html>
