@@ -32,14 +32,13 @@ body {
 }
 
 body {
-    background-image: url('../images/restaurant.jpg'); /* Path to your restaurant background image */
+    background-image: url('../images/restaurant.jpg'); 
     background-size: cover;
     background-position: center;
 }
 
-/* Header Styles */
 .header {
-    background-color: rgba(255, 255, 255, 0.8); /* Choose your desired background color with transparency */
+    background-color: rgba(255, 255, 255, 0.8); 
     padding: 20px;
     text-align: center;
 }
@@ -47,7 +46,7 @@ body {
 .restaurant-name {
     margin: 0;
     font-size: 28px;
-    color: #333; /* Choose your desired text color */
+    color: #333; 
 }
 
 .modal {
